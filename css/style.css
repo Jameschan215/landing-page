@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Courier, monospace;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 175px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: lighter;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+
+    padding: 75px 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero .hero-left {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero .hero-right {
+    min-width: 380px;
+}
+
+.hero-right img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e5e7eb;
+}
+
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    flex: none;
+}
+
+.hero button:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px 100px 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.information-container h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+ .information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    flex: 1 0 auto;
+
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+
+.card .img-1 {
+    clip-path: inset(0 9.21% 0 9.21% round 7px);
+}
+
+.card .img-2 {
+    clip-path: inset(0 17% 0 17% round 7px);
+}
+
+.card .img-3 {
+    clip-path: inset(0 16.64% 0 16.64% round 7px);
+}
+
+.card .img-4 {
+    clip-path: inset(0 12.5% 0 12.5% round 7px);
+}
+
+
+.card > img {
+    max-height: 180px;
+} 
+
+.card p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    flex: 1 1 auto;
+    min-width: 50%;
+    max-width: 70%;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote-author {
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.call-to-action-inner {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+
+    max-width: 80%;
+    padding: 35px 75px;
+    background-color: #3882f6;
+    border-radius: 7px;
+}
+
+.call-to-action .text {
+    color: #f9faf8;
+}
+
+.call-to-action .text h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.call-to-action .text p {
+    font-weight: 300;
+}
+
+.call-to-action button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call-to-action button:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    font-weight: 200;
+}
